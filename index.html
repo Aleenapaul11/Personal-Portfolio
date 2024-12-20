@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    section {
+      padding: 60px 0;
+    }
+    .navbar {
+      margin-bottom: 30px;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      color: #333;
+      font-size: 24px;
+    }
+    .skills i {
+      margin-right: 10px;
+    }
+    .footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .footer a {
+      color: white;
+    }
+    #home .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    #home .intro-text {
+      margin-top: 20px;
+    }
+    .project-card {
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
+          <li class="nav-item"><a class="nav-link" href="#certifications">Publications</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#languages">Languages</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="bg-primary text-white text-center">
+    <div class="container">
+      <img src="./Screenshot_20241220-173229_Instagram.jpg" alt="Profile Image" class="profile-img">
+      <h1>Welcome to My Portfolio</h1>
+      <p class="intro-text">I'm a passionate Front-End Developer with a love for creating stunning websites.</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="bg-light">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Motivated Front-End Developer Intern with a passion for creating responsive and user-friendly web applications. Proficient in HTML, CSS, Bootstrap, and Tailwind CSS with a strong understanding of web design principles. Eager to learn and grow in a fast-paced development environment. Demonstrates problem-solving skills and attention to detail in every project. A collaborative team player with a focus on delivering high-quality code. Excited to contribute and gain hands-on experience in front-end development.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="bg-white">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Frontend Development</h4>
+          <p>HTML, CSS, Bootstrap, Tailwind CSS</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Tool</h4>
+          <p>Visual Studio, Figma</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Version Control</h4>
+          <p>GitHub</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-light">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card project-card">
+            <img src="./Screenshot (2).png" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Food Delivery Platform </h5>
+              <p class="card-text">A web page for delivering food and drinks  with a clean and responsive design.</p>
+              <a href="https://food-delivery-app-lnyy.vercel.app/" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card project-card">
+            <img src="./Screenshot (3).png" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Educational Platform</h5>
+              <p class="card-text">A clean and responsive  website that showcases some online Courses ..</p>
+              <a href="https://educational-platform-orcin.vercel.app/" class="btn btn-primary mt-2">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card project-card">
+            <img src="./Screenshot (4).png" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Project 3</h5>
+              <p class="card-text">A responsive e-commerce site for selling mobile using bootstrap.</p>
+              <a href="https://mobile-shop-flax.vercel.app/" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hobbies Section -->
+  <section id="hobbies" class="bg-light">
+    <div class="container">
+      <h2>Hobbies</h2>
+      <p>In my free time, I enjoy reading books, traveling, playing video games, and experimenting with new technologies. I'm always up for a challenge and love learning new things.</p>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="bg-white">
+    <div class="container">
+      <h2>Publications</h2>
+      <ul>
+        <li>International Conference On Advances In Renewable And Intelligent Systems</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="bg-light">
+    <div class="container">
+      <h2>Education</h2>
+      <p>Bachelor of Technology in Electronics and Communication (2020 - 2024) - Jyothi Engineering College</p>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="bg-white">
+    <div class="container">
+      <h2>Experience</h2>
+      <p>Intern - Mearn Stack Developer at Luminat Technolab (2024 - Present-Online)</p>
+      <p>Contributed to building responsive web applications using HTML, CSS, and JavaScript.</p>
+    </div>
+  </section>
+
+  <!-- Languages Section -->
+  <section id="languages" class="bg-light">
+    <div class="container">
+      <h2>Languages</h2>
+      <ul>
+        <li>English - Fluent</li>
+        <li>Malayalam - Fluent</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="www.linkedin.com/in/aleenapaul11" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Aleenapaul11" target="_blank">GitHub</a>
+      
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
